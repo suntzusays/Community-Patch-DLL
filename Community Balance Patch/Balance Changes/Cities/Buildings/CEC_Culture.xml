@@ -3,7 +3,7 @@
 	<Buildings>
 		<Update>
 			<Where BuildingClass="BUILDINGCLASS_OPERA_HOUSE"/>
-			<Set GoldMaintenance="0"/>
+			<Set GoldMaintenance="1"/>
 		</Update>
 	</Buildings>
 	<Building_YieldChanges>
@@ -15,7 +15,6 @@
 		-->
 	</Building_YieldChanges>
 	<Building_ClassesNeededInCity>
-		<Delete BuildingClassType="BUILDINGCLASS_MONUMENT" />
 		<Delete BuildingClassType="BUILDINGCLASS_AMPHITHEATER" />
 		<Delete BuildingClassType="BUILDINGCLASS_OPERA_HOUSE" />
 		<Delete BuildingClassType="BUILDINGCLASS_MUSEUM" />

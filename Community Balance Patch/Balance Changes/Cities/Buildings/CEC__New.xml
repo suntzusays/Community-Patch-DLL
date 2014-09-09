@@ -64,7 +64,7 @@
 		</Update>
 		<Update>
 			<Where BuildingClass="BUILDINGCLASS_HYDRO_PLANT" />
-			<Set GoldMaintenance="2" />
+			<Set GoldMaintenance="1" />
 		</Update>
 		<Update>
 			<Where BuildingClass="BUILDINGCLASS_ARMORY" />
@@ -98,10 +98,7 @@
 	</Buildings>
 	<Building_YieldChanges>
 		<Delete BuildingType="BUILDING_SEAPORT" />
-		<Update>
-			<Where BuildingType="BUILDING_HOSPITAL" YieldType="YIELD_FOOD" />
-			<Set Yield="8" />
-		</Update>
+	
 		
 		<Row>
 			<BuildingType>BUILDING_GARDEN</BuildingType>
@@ -127,7 +124,7 @@
 	<Building_YieldModifiers>
 		<Update>
 			<Where BuildingType="BUILDING_OBSERVATORY" YieldType="YIELD_SCIENCE" />
-			<Set Yield="10" />
+			<Set Yield="15" />
 		</Update>
 		<Update>
 			<Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" />

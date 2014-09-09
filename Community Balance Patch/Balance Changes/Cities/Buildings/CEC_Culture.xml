@@ -6,14 +6,7 @@
 			<Set GoldMaintenance="1"/>
 		</Update>
 	</Buildings>
-	<Building_YieldChanges>
-		<!--
-		<Update>
-			<Where BuildingType="BUILDING_AMPHITHEATER" />
-			<Set Yield="2" />
-		</Update>
-		-->
-	</Building_YieldChanges>
+	
 	<Building_ClassesNeededInCity>
 		<Delete BuildingClassType="BUILDINGCLASS_AMPHITHEATER" />
 		<Delete BuildingClassType="BUILDINGCLASS_OPERA_HOUSE" />

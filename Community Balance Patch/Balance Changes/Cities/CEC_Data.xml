@@ -7,7 +7,7 @@
 		</Update>
 		<Update>
 			<Where Name="GOLD_PURCHASE_GOLD_PER_PRODUCTION"/>
-			<Set Value="3"/>
+			<Set Value="10"/>
 			<!-- 30 -->
 		</Update>
 		<Update>

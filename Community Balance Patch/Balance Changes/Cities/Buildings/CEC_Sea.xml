@@ -36,7 +36,7 @@
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<DomainType>DOMAIN_SEA</DomainType>
-			<Modifier>50</Modifier>
+			<Modifier>25</Modifier>
 		</Row>
 	</Building_DomainProductionModifiers>
 	<Building_ClassesNeededInCity>
